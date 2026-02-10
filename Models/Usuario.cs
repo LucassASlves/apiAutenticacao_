@@ -31,7 +31,7 @@ namespace apiAutenticacao.Models
         public bool Ativo { get; set; }
 
 
-            public Usuario() {
+            public Usuario() {  
 
             DataCadastro = DateTime.Now;
 

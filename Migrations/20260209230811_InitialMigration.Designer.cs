@@ -12,8 +12,8 @@ using apiAutenticacao.Data;
 namespace apiAutenticacao.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251203231747_deleteColumn")]
-    partial class deleteColumn
+    [Migration("20260209230811_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
